@@ -27,34 +27,7 @@ The challenge is to develop a JavaScript solution that computes the minimum numb
 - The minimum number of moves required to reach the target house.
 - If the destination is unreachable, return `-1`.
 
-## Example
 
-```javascript
-const X = 3;
-const Y = 3;
-const blocked = [[1, 0], [2, 2], [1, 2]];
-
-```
-
-```javascript
-
-// Output should be 7
-
-```
-<br> Explanation:
-
-The drone starts at (0, 0) and follows a path like:
-(0, 0) -> (0, 1) -> (0, 2) -> (0, 3) -> (1, 3) -> (2, 3) -> (3, 3) (7 moves).
-
-## Constraints
-
-The grid can theoretically extend infinitely in all directions. <br>
-Blocked intersections are limited in number. <br>
-
-## Edge Cases
-The destination itself is blocked. <br>
-The grid has no blocked intersections. <br>
-Large grid sizes with sparse blockages. <br>
 
 ## Guidelines for Contributing to the Project
 
